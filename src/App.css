@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Source+Code+Pro:ital,wght@0,300;1,679;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Pacifico&family=Source+Code+Pro:ital,wght@0,300;1,679;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Pacifico&family=Source+Code+Pro:ital,wght@0,300;1,679;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Pacifico&family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,300;1,679;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80vw;
+    margin-inline:auto;
+    background: linear-gradient(to left, rgb(59, 41, 41), rgb(179, 178, 178), rgb(47, 73, 47))
+}
+
+.box-shadow {
+    -webkit-box-shadow: 5px 7px 14px 0px rgba(0,0,0,0.43); 
+    box-shadow: 5px 7px 14px 0px rgba(0,0,0,0.43);
+    border-radius: 15px;
+}
+.middle {
+    width: 100%;
+    margin: 30px 0px;
+    padding-top: 1%;
+    text-align: center;
+
+}
+
+main  {
+    background: linear-gradient(to right, rgb(59, 41, 41), rgb(179, 178, 178), rgb(47, 73, 47));
+    border-radius: 10px;
+    
+}
+
+main:hover {
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.626), rgb(59, 41, 41), rgb(179, 178, 178), rgb(47, 73, 47));
+}
+
+.fonts, .middle {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    
+}
+
+.location, .bigger, .content {
+    font-family: 'Lora', serif;
+}
+
+::placeholder {
+    color: #f8f8f8;
+}
+

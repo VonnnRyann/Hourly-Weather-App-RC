@@ -95,6 +95,19 @@ const StyledCurrentWeather = styled.div `
         color: white;
         border-radius: 10px;
     }
+
+    @media only screen and (max-width: 500px) {
+         {
+            display: block
+        }
+        .content {
+            margin: 1.5%;
+        }
+        .location, .current-weather {
+            width: 22.5rem
+        }
+    }
+    
 `
 
 export default CurrentWeather

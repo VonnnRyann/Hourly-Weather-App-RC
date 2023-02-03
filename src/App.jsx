@@ -8,12 +8,12 @@ import Forecast from './components/Forecast';
 const App = () => {
   const [searchResults, setSearchResults] = useState({})
   const API_KEY = process.env.REACT_APP_MY_KEY;
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${searchResults}&days=10&aqi=no&alerts=no`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${searchResults}&days=10&aqi=no&alerts=no`;
     console.log(url);
   const {data} = useFetch(url)
   return (
     <>
-    <main>
+    <main className='container'>
       
       <h1
       className='middle'

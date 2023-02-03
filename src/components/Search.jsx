@@ -31,12 +31,12 @@ const StyledSearch = styled.div `
     margin-bottom:30px;
 
     input {
-        width: 80%:
+        width: 50%:
         height: 45px;
         border-radius: 10px;
         display: block;
         margin: auto;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         color: white;
         background-color: rgba(0,0,0,0.5);
